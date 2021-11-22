@@ -1,0 +1,40 @@
+h2 {
+  font-family: verdana;
+  text-align: center;
+  background-color: PowderBlue;
+  color: White;
+  text-shadow: 2px 2px 5px black;
+}
+form {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid powderblue;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+  font-size: 17px;
+  box-shadow: 5px 10px #ffa580;
+  border: 2px solid rgba(0,0,0,1);
+  
+}
+input[type=submit] {
+  width: 100%;
+  background-color: PowderBlue;
+  color: white;
+  padding: 14px 18px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: DarkRed;
+}
+div {
+  border-radius: 5px;
+  background-color: WhiteSmoke;
+  padding: 20px;
+}

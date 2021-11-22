@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<style>
+    h2 {
+      font-family: verdana;
+      text-align: center;
+      background-color: PowderBlue;
+      color: White;
+      text-shadow: 2px 2px 5px black;
+    }
+    input[type=file]{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid powderblue;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: white;
+    }
+    input[type=text], select{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid powderblue;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+      width: 100%;
+      background-color: PowderBlue;
+      color: white;
+      padding: 14px 18px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: DarkRed;
+    }
+    
+    div {
+      border-radius: 5px;
+      background-color: WhiteSmoke;
+      padding: 20px;
+    }
+</style>
+<body>
+
+<h2>Update Curriculum Vitae Pendaftar</h2>
+
+<div>
+  <form method="GET" action="halinfo.php" enctype="multipart/form-data">
+	  <tabel for="sex">Gender</tabel>
+    <select id="sex" name="sex">
+      <option value="Wanita">Wanita</option>
+      <option value="Pria">Pria</option>
+    </select>
+    
+    <tabel for="phone">Phone Number</tabel>
+    <input type="text" id="phone" name="phone" placeholder="Your update phone number">
+  
+    <tabel for="achieve">Achievement</tabel>
+    <input type="text" id="achieve" name="achieve" placeholder="Your update achievement">
+    
+    <tabel for="edu">Education</tabel>
+    <input type="text" id="edu" name="edu" placeholder="Your update education">
+
+	  <tabel for="exper">Experience</tabel>
+    <input type="text" id="exper" name="exper" placeholder="Your update experience">
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
